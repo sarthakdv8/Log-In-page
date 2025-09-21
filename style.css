@@ -50,8 +50,8 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.7;
     font-size: 18px;
-    color: rgb(67, 109, 0);
-    background-color: rgb(255, 237, 206);
+    color: rgb(37, 107, 52);
+    background-color: rgb(224, 224, 224);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,12 +69,15 @@ body{
 }
 button{
     padding: 10px;
-    background-color: rgb(82, 117, 0);
-    color: white;
+    background-color: rgb(224, 224, 224);
+    color: rgb(37, 107, 52);
     border-radius: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-size: 18px;
+}
+a{
+    color: rgb(37, 107, 52);
 }
 input{
     border: 1px solid;
@@ -94,6 +97,6 @@ input:valid{
     align-items: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px;
 }
