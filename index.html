@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="stay.jpeg">
+    <title> Create Account|Sign-Up</title>
 </head>
 <body>
-        <div class="img">
-            <img src="sign.jpg" alt="myphoto"class="img">
-            <div class="logo">
-                <img src="logo.jpg" alt="logo">
-                <p>StayVista, Hebbal</p> 
-            </div>
-        </div>   
+    <div class="img">
+        <img src="sign.jpg" alt="myphoto"class="img">
+        <div class="logo">
+            <img src="stay.jpeg" alt="logo">
+                    
+        </div>
+    </div>   
     <div class="right">
         <div class="header">
+            <img src="stay.jpeg" alt="reallogo">
+            
             We endeavour to make every stay memorable! We invite you to 
             ‘inspire your moment’ by creating your dream stay experience with us. 
             We are StayVista, India’s largest chain of luxury properties with over
@@ -35,17 +38,17 @@
                 <br>
                 <div class="group">
                     <label for="Email">Email</label>
-                    <input type="email" name="Email" id="Email" placeholder="Example@gmail.com "required>
+                    <input type="email" name="Email" id="Email" placeholder="Example@gmail.com " minlength="5" maxlength="50"  >
                     <label for="Phone">Phone No.</label>
-                    <input type="number" name="Phone" id="Phone" placeholder="+91-xxxxxxxxxx" required>
+                    <input type="number" name="Phone" id="Phone" placeholder="+91-xxxxxxxxxx" minlength="10">
                 
                 </div>
                 <br>
                 <div class="group">
                     <label for="Password">Password</label>
-                    <input type="password" name="Password" id="Password" placeholder="**********" required>
+                    <input type="password" name="Password" id="Password" placeholder="min-6 characters" minlength="6" maxlength="20">
                     <label for="Confirm password">Confirm pass.</label>
-                    <input type="password" name="Confirm password" id="Confirm password" placeholder="***********" required>
+                    <input type="password" name="Confirm password" id="Confirm password" placeholder="min-6 characters" minlength="6" maxlength="20">
                 
                 </div>
                 <div class="footer">
@@ -53,9 +56,7 @@
                     <p>Already have a account? <a href="#">Log In</a></p>
                 </div>
             </form>
-
         </div>
-        
     </div> 
 </body>
 </html>
